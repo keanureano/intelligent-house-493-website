@@ -1,0 +1,116 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+}
+
+body {
+  padding: 2vw;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: orange;
+  padding: 10px 0;
+}
+/* Styling for navbar items */
+.navbar-item {
+  flex-basis: 20%; /* Adjust the width as needed */
+  margin: 0 5px;
+  color: #fff;
+  padding: 20px 10px;
+  cursor: pointer;
+  flex: 1;
+  text-align: center;
+  transform: rotate(-10deg); /* Rotate the text by -5 degrees */
+}
+
+/* Define the grid container */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* 3 columns */
+  gap: 20px; /* Gap between columns */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+/* Media queries for responsive layout */
+@media screen and (max-width: 1100px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr; /* 2 columns on medium screens */
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .grid-container {
+    grid-template-columns: 1fr; /* 1 column on small screens */
+  }
+}
+
+/* Card styles */
+.card {
+  padding: 80px 40px;
+  text-align: center;
+  border: 1px solid gray;
+}
+
+.card-header {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.card-paragraph {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.card-table {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  font-size: 1.25rem;
+}
+
+.left-column {
+  flex-basis: 45%;
+  font-weight: normal;
+  font-style: italic;
+  text-align: right;
+}
+
+.right-column {
+  flex-basis: 45%;
+  text-align: left;
+}
+
+.card-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.card-footer {
+  font-size: 2rem;
+}
+
+.highlight {
+  color: orange;
+}
+
+.dark {
+  background-color: black;
+  border-color: black;
+  color: white;
+}

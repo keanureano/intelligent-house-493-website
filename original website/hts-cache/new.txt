@@ -1,0 +1,4 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+11:05:29	34243/34243	---M-Z	200	added ('OK')	text/html	etag:%2285c3-5e029ef7bebec-gzip%22	http://trnecka.inf.upol.cz/teaching/web/zkouska/Z.html	C:/My%20Web%20Sites/web/trnecka.inf.upol.cz/teaching/web/zkouska/Z.html	(from )
+11:05:30	281/281	---M--	404	error ('Not%20Found')	text/html	date:Fri,%2023%20Jun%202023%2009:05:30%20GMT	http://trnecka.inf.upol.cz/robots.txt		(from )
+11:05:31	17053/17053	---M-Z	200	added ('OK')	application/javascript	etag:W/%22429d-aUybg/2V7poZoWQBz5K4dcexnYI%22	https://cdn.jsdelivr.net/npm/disable-devtool/disable-devtool.min.js	C:/My%20Web%20Sites/web/cdn.jsdelivr.net/npm/disable-devtool/disable-devtool.min.js	(from http://trnecka.inf.upol.cz/teaching/web/zkouska/Z.html)
